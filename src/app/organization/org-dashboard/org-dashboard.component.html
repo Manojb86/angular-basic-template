@@ -1,0 +1,90 @@
+<div class="row">
+    <div class="col-sm">
+        <h2>CrossFit House</h2>
+    </div>    
+</div>
+<div class="row">
+    <div class="col-sm">
+        <h3>Summary</h3>
+    </div>    
+</div>
+<div class="row">
+    <div class="col-sm">
+        <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">            
+            <div class="card-body">
+              <h4 class="card-title" style="text-align: center;">Total</h4>
+              <p class="card-text" style="font-size:x-large;text-align: center;">20</p>
+            </div>
+          </div>
+    </div>
+    <div class="col-sm">
+        <div class="card bg-light mb-3" style="max-width: 18rem;">
+            <div class="card-body">
+                <h4 class="card-title" style="text-align: center;">New</h4>
+                <p class="card-text" style="font-size:x-large;text-align: center;">5</p>
+              </div>
+          </div>
+    </div>
+    <div class="col-sm">
+        <div class="card text-white bg-info mb-3" style="max-width: 18rem;">
+            <div class="card-body">
+                <h4 class="card-title" style="text-align: center;">Active Today</h4>
+                <p class="card-text" style="font-size:x-large;text-align: center;">4</p>
+              </div>
+          </div>
+    </div>
+    <div class="col-sm">
+        <div class="card text-white bg-warning mb-3" style="max-width: 18rem;">
+            <div class="card-body">
+                <h4 class="card-title" style="text-align: center;">Complete</h4>
+                <p class="card-text" style="font-size:x-large;text-align: center;">4</p>
+              </div>
+          </div>
+    </div>
+</div>
+<br />
+<div class="row">
+    <div class="row">
+        <div class="col-sm">
+            <h3>Customers</h3>
+        </div>
+    </div>
+    <table class="table table-striped">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Name</th>
+            <th scope="col">Program</th>
+            <th scope="col">Progress</th>
+            <th scope="col">Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Mark Silva</td>
+            <td>Standard</td>
+            <td>4/10</td>
+            <td><a href="" [routerLink] = "['/customer/dashboard', 1, 'Mark Silva']"
+              [queryParams] = "{status: 'active'}">View</a></td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Jacob Diago</td>
+            <td>Basic</td>
+            <td>2/10</td>
+            <td><a href="" [routerLink] = "['/customer/dashboard', 2, 'Jacob Diago']"
+              [queryParams] = "{status: 'inactive'}">View</a></td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Larry Kent</td>
+            <td>Premium</td>
+            <td>3/10</td>
+            <td><a href="" 
+              [routerLink] = "['/customer/dashboard', 3, 'Larry Kent']"
+              [queryParams] = "{status:'active'}">View</a></td>
+          </tr>
+        </tbody>
+      </table>
+</div>
