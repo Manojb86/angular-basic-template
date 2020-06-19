@@ -11,6 +11,7 @@ import { OrgDashboardComponent } from './organization/org-dashboard/org-dashboar
 import { CustomerComponent } from './customer/customer.component';
 import { CustomerDashboardComponent } from './customer/dashboard/customer-dashboard.component';
 import { SecurityComponent } from './security/security.component';
+import { PageNotFoundComponent } from './security/page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { SecurityComponent } from './security/security.component';
     OrganizationComponent,
     OrgDashboardComponent,
     CustomerComponent,
-    CustomerDashboardComponent
+    CustomerDashboardComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
